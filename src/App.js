@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Bio from './bio'
+import headshot from './resources/headshot.jpg'
 
 class App extends Component {
   render() {
@@ -8,6 +10,7 @@ class App extends Component {
         <header className="App-header">
         </header>
         <main>
+          <Bio headShot={headshot}/>
         </main>
       </div>
     );

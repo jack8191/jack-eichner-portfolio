@@ -9,7 +9,7 @@ export const copy = {
     bio: {
         greeting: "Hello. I'm Jack",
         introduction: "I'm a fullstack web developer based in Portland, OR",
-        programming: "I'm a recent graduate of the Fullstack Flex course from Thinful. \
+        programming: "I'm a recent graduate of the Fullstack Flex course from Thinkful. \
             My personal projects focus on my two favorite parts of \
             the web, which are tracking activites and silly fun. \
             I'm exited about applying technogy's ability to augment memory, organization, \

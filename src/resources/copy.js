@@ -28,6 +28,7 @@ export const copy = {
             include an expansion of archival and tagging functionality as well as using metadata to \
             track success of multiple goals over time to reenforce the feeling of personal development.",
             screenshot: singleStepScreenshot,
+            testCredentails: "Username: test Password: testpassword",
             liveLink: "https://pure-depths-96483.herokuapp.com/",
             gitHubLink: "https://github.com/jack8191/single-step-client",
             techList: (
@@ -46,6 +47,7 @@ export const copy = {
             with all the benefits of remote storage. Furter work would involve archival and tagging functionality, as \
             well as enhancing collaboration and sharing amoung users.",
             screenshot: recipeIteratorScreenshot,
+            testCredentails: "Username: test Password: testpassword",
             // photoCredit: (
                 
             // ),
@@ -66,6 +68,7 @@ export const copy = {
             or busting up laughing. Further work would include enhancing sharability of the resulting combinations as well \
             as changing the implementation of the image search to be more scalable.",
             screenshot: surrealApiScreenshot,
+            testCredentails: "",
             liveLink: "https://jack8191.github.io/Surreal-Image-Quote-Search-Machine/",
             gitHubLink: "https://github.com/jack8191/Surreal-Image-Quote-Search-Machine",
             techList: (

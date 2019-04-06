@@ -356,6 +356,7 @@ html {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 
 h1, h2, h3, h4, h5 {
@@ -364,7 +365,13 @@ h1, h2, h3, h4, h5 {
 
 p {
   text-align: left;
-  margin: 5px;
+  margin: auto;
+  max-width: 540px;
+  padding-top: 35px;
+}
+
+.project>p {
+  padding-top: 7px;
 }
 
 header {
@@ -375,6 +382,16 @@ header {
   width: 100%;
   max-width: 1000px;
   height: 5.5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fa-compass {
+  margin-right: 3px;
+}
+
+.fa-archway{
+  padding-top: 33px;
 }
 
 .bio {  
@@ -386,8 +403,7 @@ header {
 }
 
 .App-header>button {
-  margin: 3px;
-  text-align: center;
+  margin: 0px;
 }
 
 .project>img {
@@ -398,6 +414,14 @@ header {
   padding: 35px;
 }
 
+@media only screen and (max-width: 900px) {
+  .project>img {
+    /* margin: auto; */
+    padding: 5px;
+    min-width: 270px;
+  }
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -406,10 +430,11 @@ header {
   background-color: #FC5130;
   padding-top: 20px;
   margin-top: 50px;
+  color: #262626;
 }
 
 .projects>h2 {
-  font-size: 2em; 
+  font-size: 3em; 
   margin-top: 0.4em;
   margin-bottom: 0;
 }
@@ -417,4 +442,33 @@ header {
 .project {
   background-color: #FC5130;
   padding: 20px;  
+}
+
+.project>h2 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin: 7px;
+  padding-top: 25px;
+}
+
+a {
+  display: block;
+  padding: 5px;
+}
+
+.test-credentails {
+  padding-top: 0px;
+
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  max-width: 540px;
+  margin: auto;
+  padding-top: 17px;
+  padding-bottom: 40px;
 }

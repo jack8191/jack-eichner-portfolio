@@ -7,6 +7,7 @@ export default function Bio(props) {
             <img src={props.headshot} alt="the owner of the portfolio" />
             <h2>{props.bio.introduction}</h2>
             <p>{props.bio.programming}</p>
+            <p>{props.bio.workAndEducation}</p>
             <p>{props.bio.personal}</p>
         </section>
     )}

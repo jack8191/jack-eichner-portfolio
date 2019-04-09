@@ -16,7 +16,12 @@ export const copy = {
             communication, and expression alongside a team of skilled and passionate developers.",
         personal: "When I'm not debugging server code or tweaking button CSS I enjoy listening \
             to trap music while lifting weights, listening to experemental dance music while \
-            running, reading books, and playing tabletop role-playing games with my friends."
+            running, reading books, and playing tabletop role-playing games with my friends.",
+        workAndEducation: "At university I studied history, literature, and semiotics. My education \
+            makes me a better developer by giving me the context to understand how people use websites. \
+            My working life I have spent in kitchens and retail. This means that no deadline or high-pressure \
+            professional situation will ever bother me again. It also means I am well versed in working with a diverse \
+            and vibrant set of team mates."
     },
     projects: {
         singleStep: {
@@ -29,7 +34,7 @@ export const copy = {
             track success of multiple goals over time to reenforce the feeling of personal development.",
             screenshot: singleStepScreenshot,
             testCredentails: "Username: test Password: testpassword",
-            liveLink: "https://pure-depths-96483.herokuapp.com/",
+            liveLink: "http://www.singlestep.live",
             gitHubLink: "https://github.com/jack8191/single-step-client",
             techList: (
                 <ul className="tech-list">
@@ -51,7 +56,7 @@ export const copy = {
             // photoCredit: (
                 
             // ),
-            liveLink: "",
+            liveLink: "http://www.recipeiterator.info",
             gitHubLink: "https://github.com/jack8191/recipe-iterator",
             techList: (
                 <ul className="tech-list">
@@ -69,7 +74,7 @@ export const copy = {
             as changing the implementation of the image search to be more scalable.",
             screenshot: surrealApiScreenshot,
             testCredentails: "",
-            liveLink: "https://jack8191.github.io/Surreal-Image-Quote-Search-Machine/",
+            liveLink: "https://surrealmashup.world/",
             gitHubLink: "https://github.com/jack8191/Surreal-Image-Quote-Search-Machine",
             techList: (
                 <ul className="tech-list">

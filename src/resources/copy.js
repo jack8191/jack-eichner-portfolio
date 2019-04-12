@@ -2,7 +2,7 @@ import React from 'react'
 import headshot from './headshot.jpg'
 import singleStepScreenshot from './single-step-screenshot.png'
 import recipeIteratorScreenshot from './michael-browning-14090-unsplash.jpg'
-import surrealApiScreenshot from './surreal-api-screenshot.png'
+import surrealApiScreenshot from './surreal-api-screenshot.jpg'
 
 export const copy = {
     headShot: headshot,
@@ -34,7 +34,7 @@ export const copy = {
             track success of multiple goals over time to reenforce the feeling of personal development.",
             screenshot: singleStepScreenshot,
             testCredentails: "Username: test Password: testpassword",
-            liveLink: "http://www.singlestep.live",
+            liveLink: "https://pure-depths-96483.herokuapp.com",
             gitHubLink: "https://github.com/jack8191/single-step-client",
             techList: (
                 <ul className="tech-list">

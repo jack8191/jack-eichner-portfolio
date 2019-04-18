@@ -441,7 +441,10 @@ header {
 
 .project {
   background-color: #FC5130;
-  padding: 20px;  
+  padding: 20px;
+  /* border-top: 5px solid grey; */
+  border-bottom: 5px dashed #070707;
+  margin-bottom: 34px;
 }
 
 .project>h2 {

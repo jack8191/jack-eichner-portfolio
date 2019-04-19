@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Project(props) {
     return (
-        <section className="project">
+        <section className={'project ' + props.info.title}>
             <h2>{props.info.title}</h2>
             <h3>{props.info.descriptionHeader}</h3>
             <img src={props.info.screenshot} alt="project screenshot"/>

@@ -427,7 +427,7 @@ header {
 }
 
 .projects {
-  background-color: #FC5130;
+  background-color: rgb(187, 187, 183);
   padding-top: 20px;
   margin-top: 50px;
   color: #262626;
@@ -440,11 +440,31 @@ header {
 }
 
 .project {
-  background-color: #FC5130;
   padding: 20px;
   /* border-top: 5px solid grey; */
-  border-bottom: 5px dashed #070707;
-  margin-bottom: 34px;
+  /* border-bottom: 5px dashed #070707; */
+}
+
+.Single {
+  background-color: rgb(44, 68, 199);
+  color: #E5E6E4;
+}
+
+.Single>h2, .Single>h3 {
+  color: #E5E6E4; 
+}
+
+.Single>a {
+  color: #E5E6E4;
+}
+
+.Surreal {
+  background-color: aquamarine;
+  color: #262626;
+}
+
+.Recipe {
+  background-color: #FC5130 
 }
 
 .project>h2 {
@@ -464,8 +484,11 @@ a {
 }
 
 .test-credentails {
-  padding-top: 0px;
+  margin-bottom: 17px;
+}
 
+.test-credentails>p {
+  padding-top: 4px;
 }
 
 ul {

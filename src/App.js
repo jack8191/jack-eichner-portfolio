@@ -7,12 +7,6 @@ import Project from './project'
 import Contact from './contact'
 
 class App extends Component { 
-  // constructor(props) {
-  //   super(props)
-  //   this.bioMarker = React.createRef()
-  //   this.projectMarker = React.createRef()
-  //   this.contactMarker = React.createRef()
-  // }
   render() {
     return (
       <div className="App">
@@ -29,13 +23,15 @@ class App extends Component {
           <div className='projects' ref={(section) => { this.projects = section }}>
             <i className="fas fa-archway fa-6x"></i>
             <h2>Projects</h2>
-            <h3>Where relevant, a demo account may be accessed with</h3>
-            <p className="test-credentails">Username: test</p>
-            <p className="test-credentails">Password: testpassword</p>
+            <section className="test-credentails">
+              <h3>Where relevant, a demo account may be accessed with</h3>
+              <p>Username: test</p>
+              <p>Password: testpassword</p>
+            </section>  
             <Project info={copy.projects.singleStep}/>
-            <i className="fas fa-feather-alt fa-5x"></i>
+            {/* <i className="fas fa-feather-alt fa-5x"></i> */}
             <Project info={copy.projects.recipeIterator}/>
-            <i className="fas fa-bolt fa-5x"></i>
+            {/* <i className="fas fa-bolt fa-5x"></i> */}
             <Project info={copy.projects.surrealImageQuoteMachine}/>
           </div>
           <div className='contact' ref={(section) => { this.contact = section }}>

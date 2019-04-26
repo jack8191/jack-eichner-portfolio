@@ -452,7 +452,7 @@ img {
   .flex-image, button {
     display: none;
   }
-  .project {
+  .projects>section {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -505,7 +505,7 @@ img {
   align-items: flex-start;
   align-content: center;
   margin-top: 4em;
-  margin-bottom: 15em;
+  margin-bottom: 12em;
   max-width: 100%;
 }
 .headshot {

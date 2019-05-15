@@ -54,7 +54,7 @@ export const copy = {
             title: "Recipe Iterator",
             descriptionHeader: "Culinary Development Platform",
             description: "Track details of culinary experimentation over time without worrying about \
-            settting your notebook on fire in a gas burner.",
+            setting your notebook on fire in a gas burner.",
             screenshot: recipeIteratorScreenshot,
             testCredentails: "Username: test Password: testpassword",
             // photoCredit: (

@@ -6,13 +6,23 @@ import {copy} from './resources/copy'
 import Project from './project'
 import Contact from './contact'
 import TimeMachine from './TimeMachine'
+import Greeting from './greeting'
 
 class App extends Component { 
   constructor(props) {
     super(props)
+    this.setState = this.setState.bind(this)
     this.state = {
-      time: 'present'
+      time: '',
+      view: 'landing'
     }
+  }
+  handleLandingClick(e) {
+    e.preventDefault()
+    this.setState({
+      time: 'present',
+      view: ''
+    })
   }
   handleTimeMachine(e) {
     e.preventDefault()
@@ -30,14 +40,25 @@ class App extends Component {
     }
   }
   render() {
-    if (this.state.time === 'present') {
+    if (this.state.view === 'landing') {
+      return (
+        <div className="App">
+          <Greeting bio={copy.bio} onClick={e => this.handleLandingClick(e)} headshot={copy.headShot}/>
+          <section className='contact' ref={(section) => { this.contact = section }}>
+              <Contact />
+          </section>
+        </div>
+      )
+    }
+    
+    else if(this.state.time === 'present') {
         return (
-          <div className="App">
-          {/* <header className="App-header">
+        <div className="App">
+          <header className="App-header">
             <button onClick={() => scrollToComponent(this.bio, { offset: 0, align: 'top', duration: 1200})}>About</button>
-            <button onClick={() => scrollToComponent(this.projects, { offset: 0, align: 'top', duration: 1200})}>Projects</button>
             <button onClick={() => scrollToComponent(this.contact, { offset: 0, align: 'top', duration: 1200})}>Contact</button>
-          </header> */}
+            <button onClick={() => scrollToComponent(this.projects, { offset: 0, align: 'top', duration: 1200})}>Projects</button>
+          </header>
           <main> 
             <div className='bio' ref={(section) => { this.bio = section }}>
               <Bio bio={copy.bio} headshot={copy.headShot}/>

@@ -360,6 +360,7 @@ main {
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
 }
 
 
@@ -384,7 +385,7 @@ p, h1, h2, h3, h4, h5, a, ul {
 }
 
 header {
-  background-color: #E5E6E4;
+  /* background-color: #E5E6E4; */
   color: #2E3532;
   position: fixed;
   top: 0;
@@ -392,7 +393,13 @@ header {
   height: 5.5%;
   display: flex;
   justify-content: flex-start;
-  border-bottom: 5px solid maroon;
+  /* border-bottom: 5px solid maroon; */
+}
+
+header>button {
+  background-color: #61dafb;
+  border-color: #FBFBF2;
+  border: none;
 }
 
 .contact {
@@ -449,7 +456,7 @@ img {
 } */
 
 @media only screen and (max-width: 600px) {
-  .flex-image, button {
+  .flex-image {
     display: none;
   }
   .projects>section {
@@ -458,6 +465,9 @@ img {
   }
   .Single {
     margin-top: 15px;
+  }
+  footer>button {
+    display: none;
   }
 }
 

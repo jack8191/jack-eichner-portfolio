@@ -7,8 +7,8 @@ export default function Project(props) {
                 <h2>{props.info.title}</h2>
                 <h3>{props.info.descriptionHeader}</h3>
                 <p>{props.info.description}</p>
-                <a href={props.info.liveLink}>See it Live</a>
-                <a href={props.info.gitHubLink}>View the Repo on Github</a>
+                <a target="_blank" href={props.info.liveLink}>See it Live</a>
+                <a target="_blank" href={props.info.gitHubLink}>View the Repo on Github</a>
                 {props.info.techList}
                 {props.info.photoCredit}
             </div>
